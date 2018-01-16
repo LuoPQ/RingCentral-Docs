@@ -1134,6 +1134,14 @@ x-servers:
     description: Sandbox server
 schemes:
 - "https"
+securityDefinitions:
+  OAuth2:
+    type: oauth2
+    flow: accessCode
+    authorizationUrl: https://platform.ringcentral.com/restapi/oauth/authorize
+    tokenUrl: https://platform.ringcentral.com/restapi/oauth/token
+security:
+  - OAuth2: []
 paths:
   #API Info Start
   /restapi:
