@@ -1033,7 +1033,7 @@ info:
   version: "1.0"
   title: "RingCentral Connect Platform API Explorer"
   termsOfService: "https://developer.ringcentral.com"
-host: "platform-devfre.lab.rcch.ringcentral.com"
+host: "platform.devtest.ringcentral.com"
 basePath: "/"
 tags:
   - name: "API Info"
