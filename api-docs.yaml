@@ -3642,7 +3642,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/GlipCompany"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Light"
       x-metered-api: true
       x-metering-group: "System"
@@ -3697,7 +3697,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/GlipGroupList"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Medium"
       x-metered-api: true
       x-metering-group: "System"
@@ -3729,7 +3729,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/GlipGroupInfo"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Medium"
       x-metered-api: true
       x-metering-group: "System"
@@ -3763,7 +3763,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/GlipGroupInfo"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Light"
       x-metered-api: true
       x-metering-group: "System"
@@ -3837,7 +3837,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/GlipPersonInfo"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Light"
       x-metered-api: true
       x-metering-group: "System"
@@ -3881,7 +3881,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/GlipPosts"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Light"
       x-metered-api: true
       x-metering-group: "System"
@@ -3913,7 +3913,7 @@ paths:
           description: Success
           schema:
             "$ref": "#/definitions/GlipPostInfo"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Light"
       x-metered-api: true
       x-metering-group: "System"
@@ -3956,7 +3956,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/PostGlipFile"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Heavy"
       x-metered-api: true
       x-metering-group: "System"
@@ -3988,7 +3988,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/PostGlipFile"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Medium"
       x-metered-api: true
       x-metering-group: "System"
@@ -4020,7 +4020,7 @@ paths:
           description: Success
           schema:
             $ref: "#/definitions/GlipUnreadMessageCount"
-      x-api-group: "Glip"
+      x-api-group: "Glip [Beta]"
       x-throttling-group: "Medium"
       x-metered-api: true
       x-metering-group: "System"
