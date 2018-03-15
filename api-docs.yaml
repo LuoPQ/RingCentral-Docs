@@ -1056,7 +1056,7 @@ tags:
     description: " "
   - name: "Presence"
     description: " "
-  - name: "Glip"
+  - name: "Glip [Beta]"
     description: " "
   - name: "Meetings"
     description: " "
@@ -1117,7 +1117,7 @@ x-tagGroups:
       - "Push Notifications"
   - name:
     tags:
-      - "Glip"
+      - "Glip [Beta]"
   - name:
     tags:
       - "SCIM"
@@ -3619,7 +3619,7 @@ paths:
   /restapi/v1.0/glip/companies/{companyId}:
     get:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Get Company Info
       operationId: loadCompany
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Returns
@@ -3652,7 +3652,7 @@ paths:
   /restapi/v1.0/glip/groups:
     get:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Get User Groups
       operationId: loadGroupList
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Returns
@@ -3706,7 +3706,7 @@ paths:
       x-access-level: "PublicBeta"
     post:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Create Group
       operationId: createGroup
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Creates
@@ -3739,7 +3739,7 @@ paths:
   /restapi/v1.0/glip/groups/{groupId}:
     get:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Get Group
       operationId: loadGroup
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Returns
@@ -3773,7 +3773,7 @@ paths:
   /restapi/v1.0/glip/groups/{groupId}/bulk-assign:
     post:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Edit Group Members
       operationId: updateGroup
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Updates
@@ -3813,7 +3813,7 @@ paths:
   /restapi/v1.0/glip/persons/{personId}:
     get:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Get Person
       operationId: loadPerson
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Returns
@@ -3847,7 +3847,7 @@ paths:
   /restapi/v1.0/glip/posts:
     get:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Get Posts
       operationId: loadPosts
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Returns
@@ -3890,7 +3890,7 @@ paths:
       x-access-level: "PublicBeta"
     post:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Create Post
       operationId: createPost
       description: "<p style='font-style:italic;'>Since 1.0.28 (Release 8.4)</p><p>Creates
@@ -3923,7 +3923,7 @@ paths:
   /restapi/v1.0/glip/files:
     post:
       tags:
-      - Glip
+      - Glip [Beta]
       summary: Upload File
       operationId: createGlipFile
       description: "<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p>Posts
@@ -3966,7 +3966,7 @@ paths:
   /restapi/v1.0/glip/files/{fileId}:
     get:
       tags:
-        - Glip
+        - Glip [Beta]
       summary: Get File Info
       operationId: loadGlipFile
       description: "<p style='font-style:italic;'>Since 1.0.31 (Release 9.2)</p><p>Returns
@@ -3998,7 +3998,7 @@ paths:
   /restapi/v1.0/glip/profile:
     get:
       tags:
-        - Glip
+        - Glip [Beta]
       summary: Glip Unread Message Count
       operationId: loadUnreadMessageCount
       description: "<p style='font-style:italic;'>Since 1.0.30 (Release 9.1)</p><p>Returns
