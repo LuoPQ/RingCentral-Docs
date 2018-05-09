@@ -10,7 +10,7 @@ info:
   license:
     name: RingCentral API License Agreement and Terms of Use
     url: https://www.ringcentral.com/legal/apilitos.html
-host: platform.ringcentral.com
+host: platform.devtest.ringcentral.com
 schemes:
 - https
 basePath: /
