@@ -11,11 +11,6 @@ info:
     name: RingCentral API License Agreement and Terms of Use
     url: https://www.ringcentral.com/legal/apilitos.html
 host: platform.devtest.ringcentral.com
-x-servers:
-  - url: //platform.ringcentral.com
-    description: Default server
-  - url: //platform.devtest.ringcentral.com
-    description: Sandbox server
 schemes:
 - https
 securityDefinitions:
