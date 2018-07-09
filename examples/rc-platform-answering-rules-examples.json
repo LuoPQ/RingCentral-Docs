@@ -1,0 +1,84 @@
+{
+ "updateUserBusinessHoursResponse":
+
+   {
+     "uri" : "https.../restapi/v1.0/account/13328820004/extension/13328820004/business-hours",
+      "schedule" : {
+      "weeklyRanges" : {
+        "monday" : [ {
+          "from" : "09:00",
+          "to" : "18:00"
+        } ],
+        "tuesday" : [ {
+          "from" : "09:00",
+          "to" : "18:00"
+        } ],
+        "wednesday" : [ {
+          "from" : "09:00",
+          "to" : "18:00"
+        } ],
+        "thursday" : [ {
+          "from" : "09:00",
+          "to" : "18:00"
+        } ],
+        "friday" : [ {
+          "from" : "09:00",
+          "to" : "18:00"
+        } ]
+      }
+     }
+    },
+
+   "updateUserBusinessHoursRequest":
+   
+   {
+      "schedule": {
+        "weeklyRanges": {
+            "tuesday": [
+                {
+                    "from": "09:00",
+                    "to": "18:00"
+                }
+            ],
+            "friday": [
+                {
+                    "from": "09:00",
+                    "to": "18:00"
+                }
+            ],
+            "thursday": [
+                {
+                    "from": "09:00",
+                    "to": "18:00"
+                }
+            ],
+            "wednesday": [
+                {
+                    "from": "09:00",
+                    "to": "18:00"
+                }
+            ],
+            "monday": [
+                {
+                    "from": "09:00",
+                    "to": "18:00"
+                }
+            ]
+        }
+      }
+
+    }  
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,99 @@
+{
+  "getAddressBookLinksResponse":
+
+  {    
+   "uri": "httpы://api.ringcentral.com/restapi/v1.0/account/415931104008/extension/415931104008/address-book",
+   "contacts": {"uri": "httpы://api.ringcentral.com/restapi/v1.0/account/415931104008/extension/415931104008/address-book/contact"},
+   "groups": {"uri": "httpы://api.ringcentral.com/restapi/v1.0/account/415931104008/extension/415931104008/address-book/group"}
+  },
+
+
+  "getAddressBookContactsResponse": 
+  
+  {
+  
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact?sortBy=FirstName",
+    "records" : [ {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact/419768714008",
+    "availability" : "Alive",
+    "id" : 419768714008,
+    "firstName" : "Duncan",
+    "lastName" : "Idaho",
+    "mobilePhone" : "+16506667788",
+    "birthday" : "1970-01-01T00:00:00.000Z"
+    }, {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact/419768715008",
+    "availability" : "Alive",
+    "id" : 419768715008,
+    "firstName" : "Feyd-Rautha",
+    "lastName" : "Harkonnen",
+    "mobilePhone" : "+16507778899",
+    "birthday" : "1970-01-01T00:00:00.000Z"
+    }, {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact/419768712008",
+    "availability" : "Alive",
+    "id" : 419768712008,
+    "firstName" : "Irulan",
+    "lastName" : "Corrino",
+    "mobilePhone" : "+16504445566",
+    "birthday" : "1970-01-01T00:00:00.000Z"
+    }, {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact/419768710008",
+    "availability" : "Alive",
+    "id" : 419768710008,
+    "firstName" : "Leto",
+    "lastName" : "Atreides",
+    "mobilePhone" : "+16503334455",
+    "birthday" : "1970-01-01T00:00:00.000Z"
+    }, {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact/419768709008",
+    "availability" : "Alive",
+    "id" : 419768709008,
+    "firstName" : "Paul",
+    "lastName" : "Atreides",
+    "mobilePhone" : "+16502223344",
+    "birthday" : "1970-01-01T00:00:00.000Z"
+    }, {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact/419768713008",
+    "availability" : "Alive",
+    "id" : 419768713008,
+    "firstName" : "Shaddam",
+    "lastName" : "Corrino",
+    "mobilePhone" : "+16505556677",
+    "birthday" : "1970-01-01T00:00:00.000Z"
+    }, {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact/419768707008",
+    "availability" : "Alive",
+    "id" : 419768707008,
+    "firstName" : "Vladimir",
+    "lastName" : "Harkonnen",
+    "mobilePhone" : "+16501112233",
+    "birthday" : "1970-01-01T00:00:00.000Z"
+    } ],
+    "paging" : {
+    "page" : 1,
+    "totalPages" : 1,
+    "perPage" : 100,
+    "totalElements" : 7,
+    "pageStart" : 0,
+    "pageEnd" : 6
+   },
+    "navigation" : {
+    "firstPage" : {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact?sortBy=FirstName&page=1&perPage=100"
+   },
+      "lastPage" : {
+      "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/contact?sortBy=FirstName&page=1&perPage=100"
+    }
+   },
+    "groups" : {
+    "uri" : "https://api.ringcentral.com/restapi/v1.0/account/414988656008/extension/414988656008/address-book/group"
+   }
+  }
+
+
+
+
+}
+
+

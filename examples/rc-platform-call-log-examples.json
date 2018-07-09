@@ -1,0 +1,209 @@
+{
+
+ "loadExtensionCallLogResponse":
+
+     {
+
+        "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008/call-log?view=Detailed&showBlocked=true&withRecording=false&dateFrom=2018-06-14T13:28:00.000Z&page=1&perPage=2",
+        "records" : [ {
+
+           "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008/call-log/IyQAmlV2ORKZzUA?view=Detailed",
+            "id" : "IyQAmlV2ORKZzUA",
+            "sessionId" : "424824200008",
+            "startTime" : "2018-06-14T23:16:33.000Z",
+            "duration" : 4,
+            "type" : "Voice",
+            "direction" : "Inbound",
+            "action" : "Phone Call",
+            "result" : "Accepted",
+            "to" : {
+                 "phoneNumber" : "+18442374550",
+                 "name" : "John Smith"
+                   },
+            "from" : {
+                 "phoneNumber" : "+16504445567",
+                 "name" : "Jane Smith",
+                 "location" : "Palo Alto, CA"
+                    },
+            "transport" : "PSTN",
+            "lastModifiedTime" : "2018-06-14T23:16:36.006Z",
+            "billing" : {
+                "costIncluded" : 1.260,
+                "costPurchased" : 2.222
+                        },
+            "legs" : [ {
+              "startTime" : "2018-06-14T23:16:33.000Z",
+              "duration" : 4,
+              "type" : "Voice",
+              "direction" : "Inbound",
+              "action" : "Phone Call",
+              "result" : "Accepted",
+              "to" : {
+                "phoneNumber" : "+18442374550",
+                "name" : "John Smith"
+                  },
+              "from" : {
+               "phoneNumber" : "+16504445567",
+               "name" : "Jane Smith",
+              "location" : "Palo Alto, CA"
+                    },
+              "transport" : "PSTN",
+              "legType" : "Accept",
+              "extension" : {
+                "uri" : "http://api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008",
+                "id" : 416095514008
+                          },
+              "master" : true
+              }]
+                    
+              
+         },
+
+         {
+            "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008/call-log/IyQAlMhgV5xxzUA?view=Detailed",
+            "id" : "IyQAlMhgV5xxzUA",
+            "sessionId" : "424824196008",
+            "startTime" : "2018-06-14T23:16:33.000Z",
+            "duration" : 10,
+            "type" : "Voice",
+            "direction" : "Outbound",
+            "action" : "VoIP Call",
+            "result" : "Call connected",
+            "to" : {
+                "phoneNumber" : "+16505556678"
+                     },
+            "from" : {
+                "phoneNumber" : "+18442374550",
+                "name" : "John Smith"
+                   },
+            "transport" : "VoIP",
+            "lastModifiedTime" : "2018-06-14T23:16:35.005Z",
+            "billing" : {
+            "costIncluded" : 0.000,
+            "costPurchased" : 0.000
+                   },
+            "legs" : 
+             [ {
+             "startTime" : "2018-06-14T23:16:33.000Z",
+             "duration" : 10,
+             "type" : "Voice",
+             "direction" : "Outbound",
+             "action" : "VoIP Call",
+             "result" : "Call connected",
+             "to" : {
+                "phoneNumber" : "+16505556678"
+                   },
+             "from" : {
+               "phoneNumber" : "+18442374550",
+               "name" : "John Smith"
+                 },
+             "transport" : "VoIP",
+             "legType" : "SipToPstnMetered",
+             "extension" : {
+               "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008",
+               "id" : 416095514008
+                          },
+             "master" : true
+                } ]
+       }],
+
+       
+        "paging" :{
+           "page" : 1,
+           "perPage" : 2,
+           "pageStart" : 0,
+           "pageEnd" : 1
+                },
+        "navigation" : {
+           "nextPage" : {
+               "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008/call-log?view=Detailed&showBlocked=true&withRecording=false&dateFrom=2018-06-14T13:28:00.000Z&page=2&perPage=2"
+                      },
+           "firstPage" : {
+                "uri" : "https//api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008/call-log?view=Detailed&showBlocked=true&withRecording=false&dateFrom=2018-06-14T13:28:00.000Z&page=1&perPage=2"
+                     },
+           "lastPage" : {
+               "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416095514008/extension/416095514008/call-log?view=Detailed&showBlocked=true&withRecording=false&dateFrom=2018-06-14T13:28:00.000Z&page=1&perPage=2"
+                 }
+            }
+    },
+
+ "syncExtensionCallLogResponse": 
+
+    {
+     "uri" : "http://api.ringcentral.com/restapi/v1.0/account/416562555008/extension/416562555008/call-log-sync?statusGroup=All&syncType=FSync&recordCount=3",
+     "records" : [ {
+      "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416562555008/extension/416562555008/call-log/IzbM55lBt9RjzUA?view=Simple",
+      "id" : "IzbM55lBt9RjzUA",
+      "sessionId" : "425711913008",
+      "startTime" : "2018-06-18T14:02:01.000Z",
+      "duration" : 4,
+      "type" : "Voice",
+      "direction" : "Inbound",
+      "action" : "Phone Call",
+      "result" : "Accepted",
+      "to" : {
+        "phoneNumber" : "+18664178108",
+        "name" : "Jane Smith"
+      },
+      "from" : {
+        "phoneNumber" : "+16504445567",
+        "name" : "John Smith",
+        "location" : "Palo Alto, CA"
+      }
+     }, 
+    {
+      "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416562555008/extension/416562555008/call-log/IzbMwL2ojZlLzUA?view=Simple",
+      "id" : "IzbMwL2ojZlLzUA",
+      "sessionId" : "425711885008",
+      "startTime" : "2018-06-18T14:01:58.000Z",
+      "duration" : 10,
+      "type" : "Voice",
+      "direction" : "Outbound",
+      "action" : "VoIP Call",
+      "result" : "Call connected",
+      "to" : {
+        "phoneNumber" : "+16505556678"
+      },
+      "from" : {
+        "phoneNumber" : "+18664178108",
+        "name" : "Jane Smith"
+        }
+     }, 
+     {
+      "uri" : "https://api.ringcentral.com/restapi/v1.0/account/416562555008/extension/416562555008/call-log/IzbMvJPYJICtzUA?view=Simple",
+      "id" : "IzbMvJPYJICtzUA",
+      "sessionId" : "425711882008",
+      "startTime" : "2018-06-18T14:01:58.000Z",
+      "duration" : 10,
+      "type" : "Voice",
+      "direction" : "Outbound",
+      "action" : "VoIP Call",
+      "result" : "Call connected",
+      "to" : {
+        "phoneNumber" : "+16504445567",
+        "location" : "Palo Alto, CA"
+         },
+      "from" : {
+        "phoneNumber" : "+18664178108",
+        "name" : "Jane Smith"
+          }
+       } ],
+
+      "syncInfo" : {
+      "syncType" : "FSync",
+      "syncToken" : "FAsDAwAAAWQTM3nQBAAAAWQTNpOmCAAAAGD9ECiADQAAAGMeZ88YDgAAAWQTM3nQEQAaADEANQAyADkAMwAzADAANQAxADgAMAAwADAAXwA0ADIANQA3ADEAMQA4ADgAMgAwADAAOBIAAAFkEzaTphQBFQAYAOZ2alQ",
+      "syncTime" : "2018-06-18T14:05:01.223Z"
+   }
+ }
+
+
+
+
+
+
+
+
+}
+ 
+
+    
